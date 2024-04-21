@@ -1,0 +1,59 @@
+@import url(fontes.css);
+@media screen and (max-width:1020px) {
+    body{
+        background-image: url(images/background.png);
+        background-attachment: fixed;
+        
+    }
+    .titulo{
+        padding: 20px;
+        color: aliceblue;
+        text-shadow: 3px 3px 2px black ;
+
+    }
+    .one{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background: rgba(128, 128, 128, 0.288);
+        color: white;
+    }
+    .one button{
+        color: azure;
+        font-size: 20px;
+        height: 80px;
+        background: rgba(64, 224, 208, 0.192);
+    }
+    .one p{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 20px;
+    }
+    .one a:hover{
+        color: gold;
+        
+       
+       
+    }
+    #meuInput{
+         font-size: 20px;
+        height: 80px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.219);
+        color: white;
+    }
+    .container{
+        text-align: center;
+    }
+    .redes{
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        background: rgba(0, 0, 0, 0.438);
+    }
+    .redes img{
+        padding: 10px;
+    }
+}
